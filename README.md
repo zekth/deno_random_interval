@@ -1,4 +1,4 @@
-# deno-random-interval [![Build Status](https://travis-ci.org/zekth/deno-random-inteval.svg?branch=master)](https://travis-ci.org/zekth/deno-random-inteval)
+# deno-random-interval [![Build Status](https://travis-ci.org/zekth/deno-random-interval.svg?branch=master)](https://travis-ci.org/zekth/deno-random-interval)
 
 ```ts
 import { randomInterval, clearInterval } from "./mod.ts";
