@@ -1,9 +1,9 @@
 # deno-random-interval [![Build Status](https://travis-ci.org/zekth/deno-random-interval.svg?branch=master)](https://travis-ci.org/zekth/deno-random-interval)
 
 ```ts
-import { randomInterval, clearInterval } from "./mod.ts";
+import { randomInterval, ClearInterval } from "./mod.ts";
 
-const i: clearInterval = randomInterval(() => {
+const i: ClearInterval = randomInterval(() => {
   console.log("foo");
 }, 50); // will prompt randomly foo in the console every 0-50ms
 
